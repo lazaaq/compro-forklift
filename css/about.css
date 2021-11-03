@@ -122,6 +122,9 @@ nav form input {
     .visi-misi .kanan {
         display: none;
     }
+    .visi-misi .wrap-text .vertical-line {
+        top: 1300px;
+    }
     .visi-misi .kiri {
         width: 100%!important;
     }

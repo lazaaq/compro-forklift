@@ -81,6 +81,15 @@ nav form input {
     background-color: transparent;
     font-size: 1rem;
 }
+@media only screen and (max-width: 992px) {
+    .about .tombol .mybutton {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    .about .tombol {
+        margin-bottom: 3rem;
+    }
+}
 
 .kontak {
     background-color: #404040;

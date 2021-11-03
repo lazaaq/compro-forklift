@@ -35,6 +35,7 @@ nav form input {
     text-decoration: none;
 }
 
+
 .about {
     min-height: 70vh;
     padding: 4rem 0 4rem;
@@ -92,6 +93,7 @@ nav form input {
     border-radius: 0.25rem;
     height: 7px;
     width: 400px;
+    
 }
 .tulisan-di-kiri .deskripsi{
     color: white;
@@ -143,6 +145,59 @@ nav form input {
     border: 2px #F18D37 solid;
     padding: 0.5rem 1rem;
     text-decoration: none;
+}
+@media only screen and (max-width: 1200px){
+    .tulisan-di-kiri {
+        padding: 2rem 0;
+    }
+    .tulisan-di-kiri .judul,
+    .tulisan-di-kanan .judul {
+        font-size: 3rem;
+    }
+    .tulisan-di-kanan {
+        padding: 2rem 0;
+    }
+}
+@media only screen and (max-width: 992px)
+{
+    .tulisan-di-kiri {
+        padding: 2rem 0;
+    }
+    .tulisan-di-kiri .kanan {
+        display: none;
+    }
+    .tulisan-di-kiri .kiri {
+        width: 100%!important;
+    }
+    .tulisan-di-kanan {
+        padding: 2rem 0;
+    }
+    .tulisan-di-kanan .kiri {
+        display: none;
+    }
+    .tulisan-di-kanan .kanan {
+        width: 100%!important;
+    }
+}
+@media only screen and (max-width: 992px){
+    .tulisan-di-kiri .kiri {
+        padding-left: 0;
+        display: block;
+        width: 100%;
+    }
+    .tulisan-di-kiri .kiri .wrap {
+        width: 100%!important;
+        padding: 0 2rem;
+    }
+    .tulisan-di-kanan .kanan {
+        width: 100%;
+        padding-left: 0;
+        display: block;
+    }
+    .tulisan-di-kanan .kanan .wrap {
+        width: 100%;
+        padding: 0 2rem;
+    }
 }
 
 .klien {
