@@ -11,6 +11,12 @@ nav form input {
     background-color: #C4C4C4!important;
 }
 
+.whatsapp {
+    position: fixed;
+    top: 600px;
+    left: 1285px;
+}
+
 .hero {
     background-image: url('../img/banner-home.png');
     height: 100vh;
@@ -33,6 +39,20 @@ nav form input {
     border: 2px #F18D37 solid;
     color: #F18D37;
     text-decoration: none;
+}
+.hero .tombol a:hover {
+    background-color: #F18D37;
+    transition: 0.2s;
+    color: white;
+}
+@media only screen and (max-width: 575px) {
+    .hero .judul {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .hero .tombol {
+        text-align: center;
+    }
 }
 
 
@@ -62,6 +82,7 @@ nav form input {
     font-weight: 400;
     font-size: 1rem;
     text-align: justify;
+    line-height: 1.75rem;
 }
 .about .button .mybutton {
     padding: 0.5rem 1rem;
@@ -69,6 +90,16 @@ nav form input {
     border: 2px #F18D37 solid;
     font-size: 1rem;
     text-decoration: none;
+}
+.about .button .mybutton:hover {
+    background-color: #F18D37;
+    transition: 0.2s;
+    color: white;
+}
+@media only screen and (max-width:575px){
+    .horizontal-line-judul {
+        width: 80%!important;
+    }
 }
 
 .tulisan-di-kiri {
@@ -108,6 +139,11 @@ nav form input {
     padding: 0.5rem 1rem;
     text-decoration: none;
 }
+.tulisan-di-kiri .button a.mybutton:hover {
+    background-color: #F18D37;
+    transition: 0.2s;
+    color: white;
+}
 
 .tulisan-di-kanan {
     background-color: #404040;
@@ -145,6 +181,11 @@ nav form input {
     border: 2px #F18D37 solid;
     padding: 0.5rem 1rem;
     text-decoration: none;
+}
+.tulisan-di-kanan .button a.mybutton:hover {
+    background-color: #F18D37;
+    transition: 0.2s;
+    color: white;
 }
 @media only screen and (max-width: 1200px){
     .tulisan-di-kiri {

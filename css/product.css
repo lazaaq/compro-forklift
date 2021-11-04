@@ -10,6 +10,19 @@ nav form input {
     border-radius: 0.75rem!important;
     background-color: #C4C4C4!important;
 }
+nav form button {
+    background-color: #5F40FF!important;
+    border-radius: 0.75rem!important;
+    text-decoration: none!important;
+    color:white!important;
+    font-family: 'Poppins', sans-serif!important;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 600px;
+    left: 1285px;
+}
 
 .hero {
     height: 100vh;
@@ -34,6 +47,14 @@ nav form input {
     width: 300px;
     border-radius: 0.5rem;
     margin: 0 auto;
+}
+@media only screen and (max-width: 575px){
+    .hero .judul {
+        font-size: 2rem;
+    }
+    .hero .horizontal-line {
+        width: 100%;
+    }
 }
 
 .about {
@@ -88,6 +109,12 @@ nav form input {
     }
     .about .tombol {
         margin-bottom: 3rem;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .about img {
+        width: 100%!important;
+        height: auto!important;
     }
 }
 
